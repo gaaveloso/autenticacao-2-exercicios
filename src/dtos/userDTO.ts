@@ -1,8 +1,9 @@
 import { UserModel } from "../types"
 
 export interface GetUsersInput {
-    q: unknown
-}
+    q: unknown,
+    token: unknown
+}  
 
 export type GetUsersOutput = UserModel[]
 
